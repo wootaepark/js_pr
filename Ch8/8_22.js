@@ -12,4 +12,4 @@ for (var i = 0; i < string.length; i++){
 }
 console.log(index);
 console.log(string.indexOf(search));
-console.log(String.prototype.indexOf(search));
+console.log(String.prototype.indexOf.call(string, search)); // 모두 같은 역할
