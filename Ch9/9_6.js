@@ -17,7 +17,7 @@ undefined + '';
 
 ({}) + '' // "[object Object]"
 Math + '' // "[object Math]"
-[] + ''//""
+//[] + ''//""
 [10,20] + ''; // "10, 20"
 (function(){}) //"function(){}"
 Array + ''; // "function Array(){[natibe code]}"
